@@ -35,7 +35,7 @@ UPDATE manager SET salary = salary * 1.10;
 ```
 
 ### OUTPUT:
-![image](https://github.com/Vijisdurai/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343184/ace1d2d3-eddc-442a-bc6d-12b5c3b0439b)
+![1](https://github.com/Prajeeth17/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/120513885/77e53865-289f-4985-a155-a26925977d07)
 
 ### Q2) Delete the records from manager table where the salary less than 2750.
 
@@ -44,7 +44,7 @@ UPDATE manager SET salary = salary * 1.10;
 DELETE FROM manager WHERE salary < 2750;
 ```
 ### OUTPUT:
-![image](https://github.com/Vijisdurai/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343184/ce17064a-f4d6-45af-9850-71c80d2462cf)
+![2](https://github.com/Prajeeth17/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/120513885/586aec2b-9c24-4d87-bf46-d04a42fbc65a)
 
 ### Q3) Display each name of the employee as “Name” and annual salary as “Annual Salary” (Note: Salary in emp table is the monthly salary)
 
@@ -53,7 +53,7 @@ DELETE FROM manager WHERE salary < 2750;
 SELECT ename AS "Name", (salary * 12) + NVL(commission, 0) AS "Annual Salary" FROM manager;
 ```
 ### OUTPUT:
-![image](https://github.com/Vijisdurai/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343184/e1fe8077-b60e-4b16-b7a0-eeea55e348df)
+![3](https://github.com/Prajeeth17/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/120513885/3a6b81cf-baa0-4216-a10e-d8759944cd5e)
 
 ### Q4)	List the names of Clerks from emp table.
 
