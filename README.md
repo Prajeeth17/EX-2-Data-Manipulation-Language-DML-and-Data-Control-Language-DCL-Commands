@@ -57,7 +57,8 @@ DELETE FROM manager WHERE salary < 2750;
 
 ### QUERY:
 ```sql
-SELECT ename AS "Name", (salary * 12) + NVL(commission, 0) AS "Annual Salary" FROM manager;
+SELECT ename AS "Name", (salary * 12) + NVL(commission, 0)
+AS "Annual Salary" FROM manager;
 ```
 ### OUTPUT:
 ![3](https://github.com/Prajeeth17/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/120513885/3a6b81cf-baa0-4216-a10e-d8759944cd5e)
