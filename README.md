@@ -150,7 +150,8 @@ SELECT COUNT(*) AS "Number of Rows" FROM manager;
 
 ### QUERY:
 ```sql
-SELECT MAX(salary) AS "Maximum Salary", MIN(salary) AS "Minimum Salary", AVG(salary) AS "Average Salary" FROM manager;
+SELECT MAX(salary) AS "Maximum Salary", MIN(salary) AS "Minimum Salary",
+AVG(salary) AS "Average Salary" FROM manager;
 ```
 ### OUTPUT:
 ![image](https://github.com/Vijisdurai/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118343184/4cccd593-02e9-4024-81ca-cd71daa51698)
