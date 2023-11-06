@@ -17,7 +17,9 @@ DELETE: It is used to delete records from a database table.<br>
 
 ## Create the table as given below:
 ```sql
-create table manager(enumber number(6),ename char(15),salary number(5),commission number(4),annualsalary number(7),Hiredate date,designation char(10),deptno number(2),reporting char(10));
+create table manager(enumber number(6),ename char(15),salary number(5),
+commission number(4),annualsalary number(7),Hiredate date,
+designation char(10),deptno number(2),reporting char(10));
 ```
 ## insert the following values into the table
 ```sql
